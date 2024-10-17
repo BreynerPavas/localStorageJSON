@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 80%;
+            margin: auto;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Crear un formulario de contacto con los siguientes campos:
+    Nombre
+    Correo
+    Mensaje -->
+    <form action="">
+        <label for="name">Nombre: </label><input class="info"type="text"name="name"id="name"><br>
+        <label for="correo">Email: </label><input  class="info"type="email" name="email" id="email"><br>
+        <label for="mensaje">escribe algo: </label><textarea  class="info"name="mensaje" id="mensaje"></textarea>
+        <button id="bEnviar">Enviar</button>
+        <button id="bBorrar">Borrar</button>
+
+    </form>
+    <p id="mostrarNombre"></p>
+    <p id="mostrarCorreo"></p>
+    <p id="mostrarMensaje"></p>
+
+    <table id="tablaInformacion" border="1">
+
+    </table>
+    <!-- <script src="index.js"></script> -->
+    <script src="extras.js"></script>
+</body>
+</html>
